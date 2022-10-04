@@ -1,0 +1,24 @@
+{
+    "password": "apples",
+    "keyStoreObject": {
+        "version": 3,
+        "id": "26b4af3e-1cb1-4777-8c72-b32ba262ff9f",
+        "address": "3b1c2f56e842f109a19d515f34e0f0533ff7af9c",
+        "crypto": {
+            "ciphertext": "46a8b7407787f82077467f31d586d83f8c5d78483c0bbfd4aa2bc48b67c0fa80",
+            "cipherparams": {
+                "iv": "36bc59160cb331555fab164b80de114b"
+            },
+            "cipher": "aes-128-ctr",
+            "kdf": "scrypt",
+            "kdfparams": {
+                "dklen": 32,
+                "salt": "f96824d24164592aeb9daa28553b81a78f3fa2614afa6ad4884f73e3bb03db1f",
+                "n": 8192,
+                "r": 8,
+                "p": 1
+            },
+            "mac": "9b022ffd071b2465ab99f9b410ea8004d4160266906e4f699a194849065f5b82"
+        }
+    }
+}
