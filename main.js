@@ -1,4 +1,18 @@
-const { web3, password, keyStoreObject } = require('./setup.js')
+const Web3 = require('web3')
+
+// 0. Connect to the Ethereum client node
+const web3 = new Web3('https://goerli.infura.io/v3/29568a5cdf1c476ead117b51bc7c7b95')
+
+const fs = require('fs');
+
+// Import baseObject from new.json
+const baseObject = require('./new.json')
+
+// Store the password and KeystoreObject, to retreive PrivateKeys for signing transactions.
+const password = baseObject.password;
+const keyStoreObject = baseObject.keyStoreObject;
+
+// 1. and 2. are in setup.js
 
 // 3. This function decrypts the keyStoreObject with the user password to return the privateKey, 
 //    which can then be used to sign transactions.
